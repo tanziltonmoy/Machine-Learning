@@ -5,6 +5,6 @@ RUN pip3 install ipykernel
 RUN pip3 install scikit-learn
 RUN pip3 install numpy
 RUN pip3 install pandas
-RUN pip3 install mlflow
+RUN pip3 install mlflo
 
 CMD tail -f /dev/null
